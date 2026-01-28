@@ -6,4 +6,47 @@
 
 /* Shared style */
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main style */
+
+header {
+    width: 1600px;
+    height: 92px;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    margin: 16px 120px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav .logo {
+    width: 139px;
+    height: 60px;
+    margin: 16px;
+}
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+
+}
+nav .btn {
+    width: 164px;
+    height: 44px;
+    background-color: #30b868;
+    color: #ffffff;
+}
+
+
+
+
 
