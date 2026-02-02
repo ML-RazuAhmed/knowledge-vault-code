@@ -18,12 +18,49 @@
     border: none;
 }
 
+.section-heading {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* notes code here */
+
+.notes-box {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.notes-card {
+    width: 322px;
+    gap: 24px;
+    /*box-shadow: red;*/
+    box-shadow: 0 6px 50px 0 rgb(231, 227, 227);
+    text-align: center;
+
+}
+.notes-card img {
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+    margin: 83.54px 144.91px 29.96px 145.09px;
+}
+
+.notes-card h3 {
+    font-weight: 24px;
+}
+.notes-card p {
+    margin-top: 16px;
+    color: #627382;
+}
+
+
 /* main style */
 
 /* code for navigation bar*/
 header {
     width: 1600px;
-    height: 92px;
     background-color: #ffffff;
 }
 
@@ -125,3 +162,28 @@ nav .btn {
     border: solid white 1px;
 
 }
+
+/* codes for notes section */
+
+#notes {
+    padding-top: 50px;
+}
+
+#notes-container{
+    margin: 0px 120px;
+}
+
+.notes-card img {
+    width: 48px;
+    height: auto;
+    background-color: red;
+}
+
+
+#notes-container #notes-text{
+    text-align: center;
+}
+#notes-container #notes-text p {
+    color: #627382;
+}
+
