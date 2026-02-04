@@ -17,6 +17,9 @@
     border-radius: 4px;
     border: none;
 }
+.btn:hover {
+    background-color: aqua;
+}
 
 .section-heading {
     font-weight: bold;
@@ -78,15 +81,19 @@ nav .logo {
     margin: 16px;
 }
 
-nav .menu {
+nav #menu {
     display: flex;
     list-style-type: none;
     gap: 32px;
-
+    height: 152%;
 }
 nav .btn {
     width: 164px;
     height: 44px;
+}
+nav #menu a {
+    color: #001931;
+    text-decoration: none;
 }
 
 
@@ -109,9 +116,12 @@ nav .btn {
 #banner #banner-content #access-button {
     color: #30b868;
     border-radius: 1000px;
-    width: 229px;
+    width: 200px;
     height: 36px;
     margin: 0px 565.5px 16px;
+}
+#access-button:hover {
+    background-color: yellow;
 }
 
 
@@ -135,6 +145,7 @@ nav .btn {
     text-align: center;
     color: white;
     font-size: 18px;
+    height: 24px;
 }
 
 
@@ -162,6 +173,9 @@ nav .btn {
     border: solid white 1px;
 
 }
+#banner-content #see:hover {
+    color: red;
+}
 
 /* codes for notes section */
 
@@ -176,7 +190,7 @@ nav .btn {
 .notes-card img {
     width: 48px;
     height: auto;
-    background-color: red;
+    background-color: #f95555;
 }
 
 
@@ -184,6 +198,7 @@ nav .btn {
     text-align: center;
 }
 #notes-container #notes-text p {
+    margin-top: 16px;
     color: #627382;
 }
 
@@ -255,3 +270,41 @@ nav .btn {
 
     margin-top: 40px;
 }
+
+/* codes for footer section */
+footer {
+    background-color: #001931;
+    padding: 120px 120px 0px;
+    color: white;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#link {
+    padding-right: 150px;
+}
+#link h6{
+    font-size: 20px;
+    height: 28px;
+}
+
+#link-icon {
+    display: flex;
+    margin-top: 16px;
+}
+
+#link-icon div {
+    margin-right: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+}
+#copyright {
+    text-align: center;
+    padding: 80PX 0PX 30px;
+   
+}
+
